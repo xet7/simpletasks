@@ -1,0 +1,6 @@
+https://www.mongodb.com/community/forums/t/mongodb-community-6-0-5-illegal-instruction-core-dumped-ubuntu-18-04-on-cortex-a72-aarch64/223970/3
+
+joulu 06 11:48:49 rpi4b systemd[1]: Started mongod.service - MongoDB Database Server.
+joulu 06 11:48:53 rpi4b mongod[3749]: /usr/bin/mongod: line 4:  3750 Illegal instruction     (core dumped) /usr/bin/mongodreal --co>
+joulu 06 11:48:53 rpi4b systemd[1]: mongod.service: Main process exited, code=exited, status=132/n/a
+joulu 06 11:48:53 rpi4b systemd[1]: mongod.service: Failed with result 'exit-code'.
