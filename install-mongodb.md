@@ -7,7 +7,7 @@ But because MongoDB 8 core dumps at RasPi4, running it here with Qemu.
 
 1. Install Ubuntu 24.04 arm64 for Raspberry Pi
 
-2. Install MongoDB repo for Ubuntu 24.04 arm64
+2. Install MongoDB 8 repo for Ubuntu 24.04 arm64
 
 3. Install deps:
 
