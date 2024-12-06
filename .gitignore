@@ -64,3 +64,6 @@ typings/
 **/.vscode/*
 
 jsconfig.json
+
+# build
+.build
