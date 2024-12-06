@@ -11,11 +11,8 @@ Not supporting these, so need to compile MongoDB for that CPU, or use Qemu:
 Info about requiring newer arm64:
 - https://www.mongodb.com/community/forums/t/mongodb-community-6-0-5-illegal-instruction-core-dumped-ubuntu-18-04-on-cortex-a72-aarch64/223970/3
 
-Crosscompiling MongoDB for RasPi4 and older:
-- https://github.com/123swk123/mongodb-armv8-a
-
-Compiling MongoDB for x86_64 where CPU does not have AVX instructions:
-- https://github.com/GermanAizek/mongodb-without-avx/blob/main/Dockerfile
+Detecting does x86_64 CPU support AVX:
+- https://github.com/wekan/wekan/issues/4321#issuecomment-2469332492
 
 Error running MongoDB 8 at RasPi4, when not using Qemu:
 
@@ -26,8 +23,20 @@ December 06 11:48:53 rpi4b systemd[1]: mongod.service: Main process exited, code
 December 06 11:48:53 rpi4b systemd[1]: mongod.service: Failed with result 'exit-code'.
 ```
 
-Detecting does x86_64 CPU support AVX:
-- https://github.com/wekan/wekan/issues/4321#issuecomment-2469332492
+## a) Compile MongoDB, takes a lot of time
 
-Running MongoDB with Qemu on CPU that does not support AVX, like Intel Core 2 Duo:
+Crosscompiling MongoDB for RasPi4 and older:
+- https://github.com/123swk123/mongodb-armv8-a
+
+Compiling MongoDB for x86_64 where CPU does not have AVX instructions:
+- https://github.com/GermanAizek/mongodb-without-avx/blob/main/Dockerfile
+
+## b) Run MongoDB with Qemu, that supports newest CPU features
+
+qemu-user can run single Linux executeable for many architectures. It does not emulate full OS like qemu-system.
+
+Running MongoDB with Qemu on x86_64 CPU that does not support AVX, like Intel Core 2 Duo:
 - https://github.com/stevekerrison/mongo-qemu-avx
+
+Running MongoDB with Qemu on older arm64, like RasPi4 and older RasPi:
+- https://github.com/xet7/simpletasks/blob/main/install-mongodb.md
