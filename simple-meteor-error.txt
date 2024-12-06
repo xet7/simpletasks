@@ -1,0 +1,117 @@
+~/repos/simpletasks$ meteor
+[[[[[ ~/repos/simpletasks ]]]]]               
+
+=> Started proxy.                             
+=> Started HMR server.                        
+Error reading package.json from dir "build/bundle/programs/web.browser/dynamic/node_modules/@hookform/resolvers", this may cause important errors in your project like modules not being found. You should fix this dependency or find an alternative SyntaxError: Unexpected token 'u', "function mo"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/optimistic.ts:321:17
+    at wrap.makeCacheKey (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/optimistic.ts:36:15)
+    at recomputeNewValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:198:31)
+    at Slot.withValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/@wry/context/lib/context.esm.js:69:29)
+    at reallyRecompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:181:19)
+    at Entry.recompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:91:9)
+    at optimistic (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/index.ts:150:25)
+    at /home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/optimistic.ts:373:19
+    at recomputeNewValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:198:31)
+    at Slot.withValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/@wry/context/lib/context.esm.js:69:29)
+    at reallyRecompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:181:19)
+    at Entry.recompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:91:9)
+    at optimistic (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/index.ts:150:25)
+    at find (/tools/isobuild/package-source.js:1357:26)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at find (/tools/isobuild/package-source.js:1450:25)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1462:34
+    at Slot.withValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/@wry/context/lib/context.esm.js:69:29)
+    at Object.withCache (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/files.ts:1541:39)
+    at PackageSource._findSources (/tools/isobuild/package-source.js:1462:18)
+    at SourceArch.getFiles (/tools/isobuild/package-source.js:976:32)
+    at /tools/isobuild/compiler.js:410:23
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at /tools/isobuild/compiler.js:187:28
+    at Object.compile (/tools/isobuild/compiler.js:186:5)
+    at /tools/isobuild/bundler.js:3334:15
+    at Object.capture (/tools/utils/buildmessage.js:282:5)
+    at bundle (/tools/isobuild/bundler.js:3280:18)
+    at bundleApp (/tools/runners/run-app.js:585:26)
+    at AppRunner._runOnce (/tools/runners/run-app.js:630:35)
+    at AppRunner._runApp (/tools/runners/run-app.js:952:23)
+/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/runners/run-app.js:380
+        throw e;
+        ^
+
+SyntaxError: Unexpected token 'u', "function mo"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/optimistic.ts:321:17
+    at wrap.makeCacheKey (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/optimistic.ts:36:15)
+    at recomputeNewValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:198:31)
+    at Slot.withValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/@wry/context/lib/context.esm.js:69:29)
+    at reallyRecompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:181:19)
+    at Entry.recompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:91:9)
+    at optimistic (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/index.ts:150:25)
+    at /home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/optimistic.ts:373:19
+    at recomputeNewValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:198:31)
+    at Slot.withValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/@wry/context/lib/context.esm.js:69:29)
+    at reallyRecompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:181:19)
+    at Entry.recompute (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/entry.ts:91:9)
+    at optimistic (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/optimism/src/index.ts:150:25)
+    at find (/tools/isobuild/package-source.js:1357:26)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at find (/tools/isobuild/package-source.js:1450:25)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1439:27
+    at Array.forEach (<anonymous>)
+    at find (/tools/isobuild/package-source.js:1418:22)
+    at /tools/isobuild/package-source.js:1462:34
+    at Slot.withValue (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/dev_bundle/lib/node_modules/@wry/context/lib/context.esm.js:69:29)
+    at Object.withCache (/home/wekan/.meteor/packages/meteor-tool/.3.1.0.1rp9ta23tbt++os.linux.aarch64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.aarch64/tools/fs/tools/fs/files.ts:1541:39)
+    at PackageSource._findSources (/tools/isobuild/package-source.js:1462:18)
+    at SourceArch.getFiles (/tools/isobuild/package-source.js:976:32)
+    at /tools/isobuild/compiler.js:410:23
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at /tools/isobuild/compiler.js:187:28
+    at Object.compile (/tools/isobuild/compiler.js:186:5)
+    at /tools/isobuild/bundler.js:3334:15
+    at Object.capture (/tools/utils/buildmessage.js:282:5)
+    at bundle (/tools/isobuild/bundler.js:3280:18)
+    at bundleApp (/tools/runners/run-app.js:585:26)
+    at AppRunner._runOnce (/tools/runners/run-app.js:630:35)
+    at AppRunner._runApp (/tools/runners/run-app.js:952:23)
+
+Node.js v22.11.0

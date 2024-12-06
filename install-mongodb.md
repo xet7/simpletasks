@@ -34,7 +34,7 @@ and passes all command line arguments to MongoDB.
 
 ```
 #!/bin/bash
-/usr/bin/qemu-arm64 /usr/bin/mongodreal "$@"
+/usr/bin/qemu-arm64 /usr/bin/mongodreal --config /etc/mongod.conf
 ```
 
 7. Save and exit nano: Ctrl-o Enter Ctrl-x Enter
